@@ -3,6 +3,6 @@
   vars:
     proc_name:
   tasks:
-    - name: Hello Message
+    - name: Display var
       debug:
-        msg: "{{ proc_name }}"
+        var: proc_name
