@@ -1,7 +1,5 @@
 - name: Hello World Sample
   hosts: all
-  vars:
-    proc_name:
   tasks:
     - name: Display var
       debug:
